@@ -6,51 +6,54 @@
 
 <resources>
 	<string name="app_name">&appname;</string>
-	<string name="action_settings">Settings</string>
-	<string name="action_credits">About</string>
+	<string name="action_settings">सेटिंग्स</string>
+	<string name="action_credits">के बारे में</string>
 
 	<!-- List -->
 	<string name="inaccessible">(inaccessible)</string>
-	<string name="go_home_folder">Stuck? Click to go Home</string>
-	<string name="play_folder">Play Slideshow from here</string>
+	<string name="go_home_folder">अटक? घर जाने के लिए क्लिक करें</string>
+	<string name="play_folder">
+		यहां से स्लाइड शो चलाएं</string>
 
 	<!-- Slideshow -->
-	<string name="title_activity_image">ImageActivity</string>
+	<string name="title_activity_image">छवि गतिविधि</string>
 
-	<string name="delete_button">Delete</string>
-	<string name="delete_dialog_title">Delete image</string>
-	<string name="delete_dialog_message">Are you sure?</string>
-	<string name="image_deleted">Image deleted</string>
-	<string name="image_not_deleted">Unable to delete image</string>
+	<string name="delete_button">हटाना</string>
+	<string name="delete_dialog_title">छवि हटाएं</string>
+	<string name="delete_dialog_message">क्या आपको यकीन है?</string>
+	<string name="image_deleted">चित्र हटाया गया</string>
+	<string name="image_not_deleted">छवि को हटाने में असमर्थ</string>
 
-	<string name="share_button">Share</string>
-	<string name="share_via">Share via&#8230;</string>
+	<string name="share_button">शेयर
+	</string>
+	<string name="share_via">के माध्यम से बाँटे&#8230;</string>
 
-	<string name="image_detail_dimensions">Dimensions: %1$dx%2$d</string>
-	<string name="image_detail_size">File Size: %1$s</string>
-	<string name="image_detail_modified">Modified: %1$s</string>
+	<string name="image_detail_dimensions">आयाम: %1$dx%2$d</string>
+	<string name="image_detail_size">फाइल का आकार: %1$s</string>
+	<string name="image_detail_modified">संशोधित: %1$s</string>
 
 	<!-- Image descriptions -->
-	<string name="image_description">Image</string>
-	<string name="logo_description">Logo</string>
+	<string name="image_description">छवि</string>
+	<string name="logo_description">प्रतीक चिन्ह</string>
 
 	<!-- Credits -->
-	<string name="title_activity_credits">About &appname;</string>
+	<string name="title_activity_credits">के बारे में &appname;</string>
 	<string name="credits_creator">by <a href="https://michael.standen.link">&author;</a></string>
-	<string name="credits_content1">Slideshow is a simple application for viewing images on your
-		phone.
+	<string name="credits_content1">स्लाइड शो आपके चित्रों को देखने के लिए एक सरल अनुप्रयोग है
+		फ़ोन।
 	</string>
-	<string name="credits_content2">With no bells or whistles, this application is the simplest
-		slideshow application on the market.
+	<string name="credits_content2">कोई घंटी या सीटी के साथ, यह आवेदन सरलतम है
+		बाजार पर स्लाइड शो आवेदन
 	</string>
-	<string name="credits_content3">You can view the source code, log bugs or request features on
+	<string name="credits_content3">आप सोर्स कोड, लॉग बग या अनुरोध सुविधाओं को देख सकते हैं
 		<a href="https://github.com/Screaminghawk/android-slideshow">Github</a>.
 	</string>
-	<string name="credits_content4">This application is completely free and open source; licensed
-		under the <a href="https://tldrlegal.com/license/mit-license">MIT license</a>.
+	<string name="credits_content4">यह एप्लिकेशन पूरी तरह से स्वतंत्र और खुला स्रोत है; लाइसेंस प्राप्त
+		के नीचे <a href="https://tldrlegal.com/license/mit-license">MIT license</a>.
 	</string>
-	<string name="credits_content5">Thank you to <a href="https://github.com/psyanite">Yan Tsui</a>
-		for testing and designing the &appname; icon.
+	<string name="credits_content5">को धन्यवाद्<a href="https://github.com/psyanite">Yan Tsui</a>
+		परीक्षण और डिजाइनिंग के लिए
+ &appname; आइकन.
 	</string>
 	<string name="credits_content6">This translation of &appname; is brought to you by
 		<a href="https://michael.standen.link">&author;</a>.
@@ -58,52 +61,62 @@
 
 	<!-- Settings -->
 
-	<string name="title_activity_settings">Settings</string>
+	<string name="title_activity_settings">सेटिंग्स</string>
 
-	<string name="pref_title_show_hidden_files">Show hidden files</string>
-	<string name="pref_description_show_hidden_files">Displays files that are hidden by other
-		file managers.
+	<string name="pref_title_show_hidden_files">छिपी फ़ाइलें देखें</string>
+	<string name="pref_description_show_hidden_files">अन्य द्वारा छिपी हुई फ़ाइलों को दिखाता है
+		फ़ाइल प्रबंधक
 	</string>
 
-	<string name="pref_title_show_thumbnails">Show thumbnails</string>
-	<string name="pref_description_show_thumbnails">Displays thumbnail images. Turning this off will
-		increase performance, however you will not be able to see which files are images and which
-		are not.
+	<string name="pref_title_show_thumbnails">
+		थंबनेल दिखाओ</string>
+	<string name="pref_description_show_thumbnails">थंबनेल चित्र प्रदर्शित करता है इसे बंद कर देना होगा
+		प्रदर्शन में वृद्धि, हालांकि आप यह नहीं देख पाएंगे कि कौन सी फाइलें छवियां हैं और कौन सी चीजें हैं
+		नहीं हैं।
 	</string>
 
-	<string name="pref_title_play_from_here">Enable "Play from here" button</string>
-	<string name="pref_description_play_from_here">The "Play from here" button appears in the file
-		list and allow you to begin a Slideshow from the current folder, including all sub folders.
-		This feature is disabled by default as it may have a negative performance impact.
+	<string name="pref_title_play_from_here">
+		"यहां से चलाएं" बटन को सक्षम करें</string>
+	<string name="pref_description_play_from_here">
+		फ़ाइल में "यहां से खेलें" बटन दिखाई देता है
+		सूची और वर्तमान फ़ोल्डर से एक स्लाइड शो शुरू करने के लिए अनुमति देते हैं, सभी उप फ़ोल्डर्स सहित
+		यह सुविधा डिफ़ॉल्ट रूप से अक्षम है क्योंकि इसमें नकारात्मक प्रदर्शन प्रभाव पड़ सकता है।
 	</string>
 
-	<string name="pref_title_use_device_root">Use device root</string>
-	<string name="pref_description_use_device_root">Enable navigation to the root directory of the
-		device. This will enable access to files anywhere on the device, including mounted storage
-		such as SD cards. Note: May require a rooted device to work correctly.
+	<string name="pref_title_use_device_root">
+		उपकरण रूट का उपयोग करें</string>
+	<string name="pref_description_use_device_root">नेविगेशन की रूट निर्देशिका में सक्षम करें
+		डिवाइस। यह डिवाइस पर कहीं भी फ़ाइलों तक पहुंच सक्षम करेगा, जिसमें माउंटेड स्टोरेज शामिल है
+		जैसे एसडी कार्ड नोट: एक रूटेड डिवाइस को सही ढंग से काम करने की आवश्यकता हो सकती है।
 	</string>
 
-	<string name="pref_title_slide_delay">Slide delay</string>
-	<string name="pref_description_slide_delay">Click to change the number of seconds an image will
-		be shown before changing to the next image.
+	<string name="pref_title_slide_delay">स्लाइड देरी
+	</string>
+	<string name="pref_description_slide_delay">एक छवि के लिए सेकंड की संख्या बदलने के लिए क्लिक करें
+		अगले चित्र में बदलने से पहले दिखाया जाए
 	</string>
 
-	<string name="pref_title_image_details">Show image details</string>
-	<string name="pref_description_image_details">Overlay image details during slideshow.
+	<string name="pref_title_image_details">चित्र विवरण दिखाएं</string>
+	<string name="pref_description_image_details">स्लाइड शो के दौरान ओवरले छवि विवरण।
 	</string>
 
-	<string name="pref_title_stop_on_complete">Stop on complete</string>
-	<string name="pref_description_stop_on_complete">Stop the slideshow once every image has been
-		shown.
+	<string name="pref_title_stop_on_complete">
+		पूरी तरह से बंद करो</string>
+	<string name="pref_description_stop_on_complete">
+		प्रत्येक चित्र की गई एक बार स्लाइडशो बंद करो
+		दिखाया गया है।
 	</string>
 
-	<string name="pref_title_reverse_order">Reverse order</string>
-	<string name="pref_description_reverse_order">Display the images in the slideshow in reverse
-		order.
+	<string name="pref_title_reverse_order">
+		उल्टे क्रम</string>
+	<string name="pref_description_reverse_order">
+		रिवर्स में स्लाइडशो में छवियां प्रदर्शित करें
+		आदेश।
 	</string>
 
-	<string name="pref_title_random_order">Random order</string>
-	<string name="pref_description_random_order">Display the images in the slideshow in a random
-		order.
+	<string name="pref_title_random_order">
+		अनियमित क्रम</string>
+	<string name="pref_description_random_order">एक यादृच्छिक में स्लाइड शो में छवियों को प्रदर्शित करें
+		आदेश।
 	</string>
 </resources>
